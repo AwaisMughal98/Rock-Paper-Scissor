@@ -20,7 +20,7 @@ copy right &copy; Awais Mughal 2023
 animated text appears one by one.
 text-centre
 font 28px 
-margin 12px
+margin 24px
 letter-spacing 5px
 
 1. The AI is going to take your job.
