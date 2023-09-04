@@ -1,0 +1,54 @@
+/*Heading for webpage*/
+contain the following text
+  MAN VS AI.
+color of body is black but the bg of header should be light black.
+font-size 32px
+padding 12px
+color white
+align-centre
+
+
+/*Footer for webpage.*/
+copy right &copy; Awais Mughal 2023
+
+/*main for webpage.*/
+animated text appears one by one.
+text-centr e
+font 28px 
+margin 12px
+letter-spacing 5px
+
+1. The AI is going to take your job.
+2. Fight and win to Save your job.
+3. Win 5 matches to Save your job.
+
+The three icons for Rock Paper Scissor Appears.
+onHover translate up a little bit.
+The shadow of light blue appears around it.
+
+OnClick the sound occurs for button.
+
+The score for players shows down.
+
+
+
+
+if
+    AI wins
+        text appears : AI won... Now you are jobless.
+        sound start awww...
+else
+    You Won 
+        text appears You job is save.
+        sond starts yeah...
+
+    A pop up button appears of playAgain. by clikcing the window gets reload.
+
+
+
+/*Logic for winning the game.*/
+if player == Rock
+    comp == Paper
+        compScore ++
+    comp == Scissor
+        playerScore ++
