@@ -57,11 +57,27 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 23px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 }
 .options:hover {
-    box-shadow: rgb(104, 104, 255) inset;
+    box-shadow: 10px 10px 100px inset blue;
 }
 .options>p {
     font-size: 18px;
     font-weight: 800;
+}
+/* Score section for game */
+.score-section {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 164px;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.comp-score>p,
+.me-score>p {
+    margin: 32px;
 }
