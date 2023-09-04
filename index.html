@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <script src="script.js" defer></script>
     <title>Game | Man VS AI.</title>
 </head>
+
 <body>
     <header>MAN VS AI.</header>
     <main>
@@ -17,15 +19,15 @@
                 <p class="text-anime"></p>
             </div>
             <div class="play-section">
-                <div class="options">
+                <div class="options" id="rock">
                     <img src="icons/rock.png" alt="">
                     <p>ROCK</p>
                 </div>
-                <div class="options">
+                <div class="options" id="paper">
                     <img src="icons/paper.png" alt="" width="32px">
                     <p>PAPER</p>
                 </div>
-                <div class="options">
+                <div class="options" id="scissor">
                     <img src="icons/scissor.png" alt="">
                     <p>SCISSOR</p>
                 </div>
@@ -33,15 +35,26 @@
             <div class="score-section">
                 <div class="me-score">
                     <p>Your Score</p>
-                    <p>0</p>
+                    <p class="score-me">0</p>
                 </div>
                 <div class="comp-score">
                     <p>AI </p>
-                    <p>0</p>
+                    <p class="score-comp">0</p>
                 </div>
+            </div>
+            <div class="last-container">
+                <p class="player-choice-text"></p>
+                <p class="result-text"></p>
             </div>
         </div>
     </main>
     <footer>copyright &copy; AwaisMughal 2023</footer>
+
+    <!-- Popup for game result -->
+    <div class="popup">
+        <p class="popup-text">Popup Text Goes Here</p>
+        <button class="play-again-btn">Play Again</button>
+    </div>
 </body>
+
 </html>

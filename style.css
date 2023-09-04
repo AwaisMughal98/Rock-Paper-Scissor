@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #000;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 header,footer {
     background: #221f1f;
@@ -26,10 +28,8 @@ footer {
     text-align: center;
     font-size: 8px;
     padding: 4px;
+    margin-top: auto;
     font-weight: 600;
-    position: absolute;
-    bottom: 0;
-    min-width: 100vw;
 }
 
 /* Styling for text anime. */
@@ -80,4 +80,43 @@ footer {
 .comp-score>p,
 .me-score>p {
     margin: 32px;
+}
+.last-container {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    min-height: 32px;
+    /* margin: 12px; */
+}
+/* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: lightblue;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+.popup-text {
+    margin-bottom: 8px;
+}
+
+.popup button {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
 }
