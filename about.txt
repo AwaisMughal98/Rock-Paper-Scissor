@@ -23,10 +23,6 @@ font 28px
 margin 24px
 letter-spacing 5px
 
-1. The AI is going to take your job.
-2. Fight and win to Save your job.
-3. Win 5 matches to Save your job.
-
 The three icons for Rock Paper Scissor Appears.
 onHover translate up a little bit.
 The shadow of light blue appears around it.

@@ -40,3 +40,28 @@ footer {
     margin: 24px;
     letter-spacing: 5px;
 }
+/* styling for options section */
+.play-section{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 64px;
+}
+.options {
+    border: white 1px solid;
+    min-width: 150px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+}
+.options:hover {
+    box-shadow: rgb(104, 104, 255) inset;
+}
+.options>p {
+    font-size: 18px;
+    font-weight: 800;
+}
