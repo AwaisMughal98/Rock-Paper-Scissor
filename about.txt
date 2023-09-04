@@ -57,3 +57,12 @@ if player == Rock
         compScore ++
     comp == Scissor
         playerScore ++
+
+
+
+/*Logic for animated text.*/
+1. select the text-anime with classListSelector
+2. assign it an empty string.
+3. do-while if(string is empty) : do into logic
+    else{ think later}
+    while{text != ""} fadeout.
