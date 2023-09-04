@@ -7,13 +7,18 @@ padding 12px
 color white
 align-centre
 
+/*Body*/
+color whitesmoke
+font ROBOTO
+bg-black
+
 
 /*Footer for webpage.*/
 copy right &copy; Awais Mughal 2023
 
 /*main for webpage.*/
 animated text appears one by one.
-text-centr e
+text-centre
 font 28px 
 margin 12px
 letter-spacing 5px
