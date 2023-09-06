@@ -10,6 +10,7 @@ body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 header,footer {
     background: #221f1f;
